@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "es2020",
+      "target": "es2020",
+      "baseUrl": ".",
+      "paths": {
+        "@lib/*": ["./src/lib/*"],
+        "@api/*": ["./src/api/*"],
+        "@middleware/*": ["./src/middleware/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  }
