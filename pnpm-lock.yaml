@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@ngneat/falso': ^5.1.0
   '@prisma/client': ^3.13.0
   '@sindresorhus/slugify': ^2.1.0
   '@swc/core': ^1.2.177
@@ -15,7 +14,6 @@ specifiers:
   express-jwt: ^7.6.2
   fastest-validator: ^1.12.0
   helmet: ^5.0.2
-  http-errors: ^2.0.0
   jsonwebtoken: ^8.5.1
   morgan: ^1.10.0
   pino: ^7.11.0
@@ -27,7 +25,6 @@ specifiers:
   vite-plugin-node: 0.0.19
 
 dependencies:
-  '@ngneat/falso': 5.1.0
   '@prisma/client': 3.13.0_prisma@3.13.0
   '@sindresorhus/slugify': 2.1.0
   bcryptjs: 2.4.3
@@ -38,7 +35,6 @@ dependencies:
   express-jwt: 7.7.0
   fastest-validator: 1.12.0
   helmet: 5.0.2
-  http-errors: 2.0.0
   jsonwebtoken: 8.5.1
   morgan: 1.10.0
   pino: 7.11.0
@@ -55,13 +51,6 @@ devDependencies:
   vite-plugin-node: 0.0.19_vuf36326ioct6psjmjhuc5reti
 
 packages:
-
-  /@ngneat/falso/5.1.0:
-    resolution: {integrity: sha512-wINgRmTBjIBoJcFuNQiqxp/ben6dAnIAcScAjyltXcVhxswebhof8sdXpndn6zzG28vlepG/qeU+kFV4FX20+Q==}
-    dependencies:
-      seedrandom: 3.0.5
-      uuid: 8.3.2
-    dev: false
 
   /@prisma/client/3.13.0_prisma@3.13.0:
     resolution: {integrity: sha512-lnEA2tTyVbO5mS1ehmHJQKBDiKB8shaR6s3azwj3Azfi5XHIfnqmkolLCvUeFYnkDCNVzGXJpUgKwQt/UOOYVQ==}
@@ -1270,10 +1259,6 @@ packages:
     resolution: {integrity: sha512-Q5Z/97nbON5t/L/sH6mY2EacfjVGwrCcSi5D3btRO2GZ8pf1K1UN7Z9H5J57hjVU2Qzxr1xO+FmBhOvEkzCMmg==}
     dev: false
 
-  /seedrandom/3.0.5:
-    resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
-    dev: false
-
   /semver/5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
     hasBin: true
@@ -1410,11 +1395,6 @@ packages:
   /utils-merge/1.0.1:
     resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}
     engines: {node: '>= 0.4.0'}
-    dev: false
-
-  /uuid/8.3.2:
-    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
-    hasBin: true
     dev: false
 
   /vary/1.1.2:

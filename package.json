@@ -20,7 +20,6 @@
     "prisma:reset": "prisma migrate reset"
   },
   "dependencies": {
-    "@ngneat/falso": "^5.1.0",
     "@prisma/client": "^3.13.0",
     "@sindresorhus/slugify": "^2.1.0",
     "bcryptjs": "^2.4.3",
@@ -31,7 +30,6 @@
     "express-jwt": "^7.6.2",
     "fastest-validator": "^1.12.0",
     "helmet": "^5.0.2",
-    "http-errors": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
     "pino": "^7.11.0",
